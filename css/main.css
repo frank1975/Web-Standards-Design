@@ -1,0 +1,111 @@
+/*
+CSS for The Golfshack site
+*/
+
+body {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  background-color: #BCB174;
+  font-size: 16px;
+  padding: 60px;
+  width: 1000px;
+}
+
+h1 {
+  font-family: 'Noto Serif', serif; Helvetica, Arial, sans-serif;
+  color: #1D5902;
+  text-align: center;
+  padding: 5px;
+}
+
+h2 {
+  font-family: 'Noto Serif', serif; Helvetica, Arial, sans-serif;
+  color: #1D5902;
+}
+
+h3 {
+ font-family: 
+}
+header img {
+   padding: 5px;
+   margin: 0 auto;
+  align: top;
+}
+
+nav ul {
+   width: 300px;
+   margin: 0 auto;
+   list-style-type: none;
+   padding: 0;
+   float: right;
+ 
+}
+
+nav li {
+  width: 80px;
+  float: right;
+  padding: 5px;
+  
+}
+
+nav a {
+   text-decoration: none;
+   background: #53A617;
+   display: block;
+   height: 30px;
+   line-height: 30px;
+   text-align: center;
+   color: white;
+}
+
+header {
+  background-color: #8CBF1F;
+  line-height: 125%;
+  padding: 5px;
+  border: 3px solid #1D5902;
+  border-radius: 10px;
+  width: 1000px;
+}
+
+.specials {
+color: white;
+}
+
+#call-to-action {
+   background-color: #53A617;
+   border: 3px solid #1D5902;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px #1D5902;
+   padding: 15px;
+   margin: 5px;
+   width: 1000px;
+} 
+
+#call-to-action img {
+   border: 3px solid #1D5902;
+   border-radius: 10px;
+}
+
+ul img {
+	border: 3px solid #1D5902;
+	border-radius: 10px;
+	float: left;
+	margin: 40px;
+	line-style-type: none;
+	marging: 50px;
+}
+section {
+	text-align: left;
+}
+
+   
+li {
+  font-size: small;
+  color: #1D5902;
+}
+
+a {
+font-weight: normal;
+color: #1D5902;
+}
+
+border {
