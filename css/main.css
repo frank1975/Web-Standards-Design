@@ -11,24 +11,20 @@ body {
 }
 
 h1 {
-  font-family: 'Noto Serif', serif; Helvetica, Arial, sans-serif;
+  font-family: 'Noto Serif';
   color: #1D5902;
   text-align: center;
   padding: 5px;
 }
 
 h2 {
-  font-family: 'Noto Serif', serif; Helvetica, Arial, sans-serif;
+  font-family: 'Noto Serif';
   color: #1D5902;
 }
 
-h3 {
- font-family: 
-}
 header img {
    padding: 5px;
    margin: 0 auto;
-  align: top;
 }
 
 nav ul {
@@ -37,7 +33,6 @@ nav ul {
    list-style-type: none;
    padding: 0;
    float: right;
- 
 }
 
 nav li {
@@ -90,13 +85,11 @@ ul img {
 	border-radius: 10px;
 	float: left;
 	margin: 40px;
-	line-style-type: none;
-	marging: 50px;
 }
+
 section {
 	text-align: left;
 }
-
    
 li {
   font-size: small;
@@ -108,4 +101,3 @@ font-weight: normal;
 color: #1D5902;
 }
 
-border {
