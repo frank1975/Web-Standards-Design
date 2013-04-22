@@ -1,103 +1,227 @@
-/*
-CSS for The Golfshack site
-*/
-
+/*------------------------------Frank's website---------------------------------*/ 
 body {
-  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font: 16px Arial, Verdana, Helvetica, sans-serif;
+  color: #1D5902;
   background-color: #BCB174;
-  font-size: 16px;
-  padding: 60px;
-  width: 1000px;
+  width: 900px;
+  margin: 0 auto;
 }
 
-h1 {
-  font-family: 'Noto Serif';
-  color: #1D5902;
-  text-align: center;
-  padding: 5px;
-}
-
-h2 {
-  font-family: 'Noto Serif';
-  color: #1D5902;
-}
-
-header img {
-   padding: 5px;
-   margin: 0 auto;
-}
-
-nav ul {
-   width: 300px;
-   margin: 0 auto;
-   list-style-type: none;
-   padding: 0;
-   float: right;
-}
-
-nav li {
-  width: 80px;
-  float: right;
-  padding: 5px;
-  
-}
-
-nav a {
-   text-decoration: none;
-   background: #53A617;
-   display: block;
-   height: 30px;
-   line-height: 30px;
-   text-align: center;
-   color: white;
-}
-
-header {
+/*-------------------------------header element----------------------------------*/
+ 
+#header {
+  padding: 20px 25px;
   background-color: #8CBF1F;
-  line-height: 125%;
-  padding: 5px;
   border: 3px solid #1D5902;
   border-radius: 10px;
-  width: 1000px;
+  width: 900px;
+  margin: 5px;
+  position: relative;
+  height: 40px;
+}
+
+#sitebranding img {
+  position: absolute;
+  left: 15x;
+  top: 12px;
+} 
+
+#sitebranding h1 {
+  font-family: 'Bubblegum Sans', cursive;
+  color: #1D5902;
+  width: 200px; 
+  position: absolute;
+  left:90px;
+  top: 4px;
+}
+
+#navigation ul {
+  opacity: 0.7;
+  width: 300px;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 625px;
+  top: 45px;
+  border-radius: 10px;
+}
+
+#navigation li {
+  width: 100px;
+  float: left;
+}
+
+#navigation a {
+  text-decoration: none;
+  background: #1D5902;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+#navigation a:hover {
+  color: #1D5902;
+  background: #fff;
+}
+
+/*----------------------------call to action element--------------------------------*/
+
+#call-to-action {
+  padding: 25px;
+  background-image: url("../images/fairway.jpg");
+  border: 3px solid #1D5902;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #1D5902;
+  width: 900px;
+  margin: 5px 5px;
+  height: 425px;
+  postion: absolute;
+} 
+
+#call-to-action h2 {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color: #1D5902;
+  width: 500px; 
 }
 
 .specials {
-color: white;
+  color: #fff;
+  letter-spacing: 0.05em;
+  font-style: italic;
+  padding-left: 15px;
 }
-
-#call-to-action {
-   background-color: #53A617;
-   border: 3px solid #1D5902;
-   border-radius: 10px;
-   box-shadow: 5px 5px 5px #1D5902;
-   padding: 15px;
-   margin: 5px;
-   width: 1000px;
-} 
 
 #call-to-action img {
-   border: 3px solid #1D5902;
+   border: 5px solid #1D5902;
+   border-radius: 10px;
+   width: 320px; 
+   float: right;
+}
+   
+.green-button {
+	width: 100px;
+	cursor: pointer;
+	text-decoration:none;
+	border: 1px solid rgb(0, 153, 0);
+	padding: 10px 10px 10px 10px;
+	color:rgb(255, 255, 255);
+	font-size:14px;
+	font-family:arial, serif;
+	text-shadow: 0px 0px 5px rgb(255, 255, 255);
+	text-align: center;
+	font-size: 14px;
+	border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-moz-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:0px 0px 0px rgb(0, 0, 0);
+	background-color: rgb(0, 153, 0);
+	background-image:linear-gradient(-90deg, rgb(0, 153, 0), rgb(0, 153, 0));
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, from(rgb(0, 153, 0)), to(rgb(0, 153, 0)));
+	background-image:-moz-linear-gradient(-90deg, rgb(0, 153, 0), rgb(0, 153, 0));
+}
+
+/*-----------------------------gallery element------------------------------------*/
+
+#gallery h1 {
+   font-family: 'Special Elite', cursive;
+   color: #fff;
+   text-shadow: 5px 5px 2px gray;
+   width: 300px;
+   text-align: center;
+   margin: 50px auto;
+}
+
+#gallery ul {
+   list-style-type: none;
+   width: 700px;
+   margin: 50px auto;
+   overflow: hidden;
+}
+
+#gallery li {
+   float: left;
+   margin: 10px;
+}
+
+#gallery img {
+   border: 5px solid #1D5902;
    border-radius: 10px;
 }
 
-ul img {
-	border: 3px solid #1D5902;
-	border-radius: 10px;
-	float: left;
-	margin: 40px;
+/*--------------------------------section element----------------------------------*/
+
+#custom-fit h2 {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color: #1D5902;
+  margin-left: 25px;
+  margin-bottom: 3px;
 }
 
-section {
-	text-align: left;
+#custom-fit p {
+  color: #fff;
+  width: 450px;
+  margin-left: 25px;
+  margin-top: 3px;
 }
-   
-li {
-  font-size: small;
+
+#custom-fit ol  {
+  color: #1D5902;
+  width: 200px;
+}
+
+#custom-fit li {
+  color: #1D5902;
+  width: 200px;
+  padding: 5px;
+  margin-left: 25px;
+}
+
+#custom-fit a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*--------------------------------article element----------------------------------*/
+
+#lessons h3 {
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+#lessons p {
+  -moz-column-count: 3;
+  -moz-column-gap: 25px;
+  margin-left: 25px;
+}
+
+.quote {
+  font-style: italic;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+
+footer ul {
+  list-style-type: circle;
   color: #1D5902;
 }
 
-a {
-font-weight: normal;
-color: #1D5902;
-}
+
+
+
+
+
+
+
+
+
+
+
 

@@ -4,63 +4,56 @@
   <meta charset="utf-8"/>
   <title>Franks new website</title>
   <link href="css/main.css" rel="stylesheet" type="text/css"/>
+  <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
  </head>
  <body>
-  <header>
-  	<div id="sitebranding">
+ 
+  <div id="header">
+   	<div id="sitebranding">
    	  <h1> The Golfshack</h1>
-   	</div>	
-    <nav> 
-      <ul>
-	    <li><a href="golfclubs.html">Clubs</a></li>
-	    <li><a href="golfbags.html">Bags</a></li>
-	    <li><a href="golfpullcarts.html">Pull Carts</a></li>	
-      </ul>
-    </nav> 
-    <div id= "logoimage"> 	
-      <img src="images/golfball1.jpg" width="110" height="119" alt="Photo of golf ball logo."
+   	  <img src="images/golfball1.jpg" width="50" height="56" alt="Photo of golf ball logo"
       title="golfball"/>
-    </div>   	
-  </header>
-  <div>
-   <h2> Golf Equipment <em>Specials</em></h2>
-	
-   <p> For a limited time you can get an extreme discount on some great golf
-   equipment. These deals are only available online and can be shipped to your location
-   immediately. We are so confident in our pricing that if you find a lower price from an authorized
-   retailer, The Golf Shack will match it guaranteed.</p>
-	  
-   <p>Please have the authorized website address available for our representitive to verify
-   the online pricing and product description. If the competing site is an authorized account
-   featuring an in-stock item, we'll match their price and complete your order while you're
-   on the phone.</p>
-  </div>
-	  
+    </div>	
+    <div id="navigation">
+      <ul>
+	   	<li><a href="golfclubs.html">Clubs</a></li>
+	   	<li><a href="golfbags.html">Bags</a></li>
+	   	<li><a href="golfpullcarts.html">Pull Carts</a></li>	
+      </ul>
+    </div>	
+  </div><!--end of header div-->
+  
   <div id="call-to-action"> 
-    <h2 class="specials">Golf Equipment <em>Specials</em></h2>
-    <p> For a limited time you can get an extreme discount on some great golf
-    equipment. These deals are only available online and can be shipped to your location
-    immediately. We are so confident in our pricing that if you find a lower price from an authorized
-    retailer, The Golf Shack will match it guaranteed.</p>
-    <p> <img src="images/callaway-golf-clubs.jpg" width="320" height="320" alt="Photo of golf clubs"
-    title="golfclubs"/>Please have the authorized website address available for our representitive to verify
+    <h2> Golf Equipment<span class="specials">"Specials"</span></h2>
+    <p><img src="images/callaway-golf-clubs.jpg" width="320" height="320" alt="Photo of golf 
+    equipment" title="golf equipment"/> For a limited time you can get an extreme discount on
+    some great golf equipment. These deals are only available online and can be shipped to your 
+    location immediately. We are so confident in our pricing that if you find a lower price from
+    an authorized retailer, The Golf Shack will match it guaranteed.</p>
+    
+    <p> Please have the authorized website address available for our representitive to verify
     the online pricing and product description. If the competing site is an authorized account
     featuring an in-stock item, we'll match their price and complete your order while you're
     on the phone.</p>
-   </div>
-   <div>
-    <h3> Daily Deals</h3>
-      <ul>
-	   <li><img src="images/clubs.jpg" width="200" height="119" alt="Photo of golf bag in 
-	   daily deals." title="golf bag"/></li>
-	   <li><img src="images/bags.jpg" width="200" height="248" alt="Photo of golf clubs in
-	   daily deals." title="golf clubs"/></li>
-	   <li><img src="images/pullcarts.jpg" width="200" height="200" alt="Photo of pull cart in
-	   daily deals." title="pull cart"/></li>
-      </ul>
-  </div>  
+    <div class="green-button"><a href="#" class="green-button">Start Here</a></div>
+  </div><!--end of call to action div-->
   
-  <section>
+  <div id="gallery">
+    <h1>Daily Deals</h1>
+      <ul>
+	    <li><a href="images/clubs.jpg" title="golf clubs"><img src="images/clubs.jpg" width="140" 
+	    height="140" alt="Photo of golf clubs in daily deals"/></a></li>
+		<li><a href="images/bags.jpg" title="golf bags"><img src="images/bags.jpg" width="140" 
+		height="140" alt="Photo of golf bags in daily deals"/></a></li>
+		<li><a href="images/pullcarts.jpg" title="pull carts"><img src="images/pullcarts.jpg" 
+		width="140" height="140" alt="Photo of pull carts in daily deals"/></a></li>
+		<li><a href="images/driver.jpg" title="driver"><img src="images/driver.jpg" width="140" 
+		height="140" alt="Photo of golf club driver in daily deals"/></a></li>
+	  </ul>
+  </div><!--end of gallery div-->  
+  
+  <section id="custom-fit">
     <h2> The Golfshack Custom Fit Experience</h2>
     <p>We want you to play better, let us custom fit your new clubs!</p>
     <ol>
@@ -68,21 +61,39 @@
 	 <li><a href="AdvancedFitting.html"> Advanced Fitting</a></li>
 	 <li><a href="PersonalFitting.html"> Personal Fitting</a></li>	
     </ol>
-  </section>
+  </section><!--end of section div--> 
+  
 	  
-  <article>
-    <h2><a href="http://www.golftec.com">GolfTEC Lessons</a></h2>
+  <article id="lessons">
+    <h3><a href="http://www.golftec.com">GolfTEC Lessons</a></h3>
     <p> If you want to play better golf, you have come to the right place. For more
 	than 15 years, GolfTEC has been helping golfers of all skill levels play better 
 	and enjoy the game more. Whether you are a complete beginner or an accomplished 
 	golfer, GolfTEC’s comprehensive approach to improvement can help you reach your 
-	personal goals.</p>
-  </article>
+	personal goals. GolfTEC is the only place you need for golf improvement. Build proper 
+	swing mechanics,menjoy the game more and lower your scores with GolfTEC lessons. Increase 
+	driving distance and accuracy with every club in your bag with GolfTEC’s Personal Club Fitting.</p>
+	
+	<p>You want to play better golf. GolfTEC will help you make it happen. Join the more than 
+	200,000 clients who have found success with GolfTEC’s Proven Path. Call a GolfTEC Improvement 
+	Center near you to talk to a GolfTEC Coach about getting started. GolfTEC's approach to golf lessons 
+	not only makes sense—it works. Combined, more than 200,000 golfers have experienced a 95% success rate 
+	following GolfTEC's Proven Path. And each year, thousands of golfers make GolfTEC's Wall of Fame. Some 
+	win club championships. Some shoot career rounds. Many find more fairways and lose fewer balls. And 
+	others are simply able to do what they could not do before taking a GolfTEC lesson—enjoy the game of golf.</p>
+	
+	<p>From day one, GolfTEC has believed in the power of using advanced technology to accelerate the golf 
+	improvement process. GolfTEC's patented g-SWING system combines digital video, motion measurement and 
+	biofeedback. It doesn't end there. Each golf lesson you take is uploaded to your personalized Player 
+	Performance Center using GolfTEC's WebLesson® technology, giving you 24/7 access to your lesson history, 
+	past swing videos, practice drills and more. The bottom line: Each GolfTEC lesson utilizes advanced technology 
+	to dramatically accelerate your improvement. Let's face it; the driver is the most difficult club in your bag to hit. 
+	With lofts of about 10° on most drivers, any deviations on swing path or club face will have exponentially higher 
+	negative consequences. A swing with a wedge may end up missing a green, while that same swing with a driver will 
+	end up knee deep in the long stuff.</p>
+  </article><!--end of article div--> 
 	  		
-  <aside>
-    Don't be too proud to take a lesson. I'm not.
-	Jack Nicklaus
-  </aside>
+  <aside class="quote">Don't be too proud to take a lesson. I'm not. Jack Nicklaus </aside><!--end of aside div--> 
 	  		
   <footer>
    <ul>
@@ -92,6 +103,6 @@
 	<li>About Golfsmith</li>
 	<li>Programs</li>	
    </ul>
-  </footer>
+  </footer><!--end of footer div--> 
  </body>
 </html>		
