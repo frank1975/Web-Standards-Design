@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
   <title>Franks new website</title>
   <link href="css/main.css" rel="stylesheet" type="text/css"/>
   <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
@@ -10,20 +10,22 @@
  </head>
  <body>
  
-  <div id="header">
+  <header>
    	<h1><img src="image/golfball1.png" width="56" height="56" alt="Photo of golf ball logo"
       title="golfball"/> The Golfshack</h1>
+    <nav>  
       <ul>
 	   	<li><a href="golfclubs.html">Clubs</a></li>
 	   	<li><a href="golfbags.html">Bags</a></li>
 	   	<li><a href="golfpullcarts.html">Pull Carts</a></li>	
-      </ul>	
-  </div><!--end of header div-->
+      </ul>
+    </nav>	
+  </header><!--end of header div-->
   
   <div id="call-to-action"> 
     <h1> Golf Equipment<span class="specials">"Specials"</span></h1>
     <p> <img src="image/callaway-golf-clubs.jpg" alt="Photo of golf 
-    equipment" title="golf equipment"/>For a limited time you can get an extreme discount on
+    equipment" title="golf equipment"/>For a <em>limited time</em> you can get an extreme discount on
     some great golf equipment. These deals are only available online and can be shipped to your 
     location immediately. We are so confident in our pricing that if you find a lower price from
     an authorized retailer, The Golf Shack will match it guaranteed.</p>
@@ -32,7 +34,7 @@
     the online pricing and product description. If the competing site is an authorized account
     featuring an in-stock item, we'll match their price and complete your order while you're
     on the phone.</p>
-    <div class="green-button"><a href="#" class="green-button">Start Here</a></div>
+    <div><button type="submit" name="submit" class="button"> Start Here</button></div>
   </div><!--end of call to action div-->
   
   <div id="gallery">
@@ -90,6 +92,89 @@
   </article><!--end of article div--> 
 	  		
   <aside class="quote">Don't be too proud to take a lesson. I'm not. Jack Nicklaus </aside><!--end of aside div--> 
+  
+  <section id="contact_info">
+     <h2>Contact Information</h2>
+     
+     <table>
+     	<tr>
+     	  <th>Name</th>
+     	  <th>Contact (Home)</th>
+     	  <th>Contact (Work)</th>
+     	  <th>Location</th>
+        </tr>
+        <tr>
+          <td>Bob Villa</td>
+          <td>871 243 9845</td>
+          <td>871 243 7890</td>
+          <td>Winterfield, FL</td>
+        </tr>
+        <tr>
+          <td>Tiger Woods</td>
+          <td>871 789 3421</td>
+          <td>871 567 1243</td>
+          <td>Jupiter, FL</td>
+        </tr>  
+        <tr>
+          <td>Adam Scott</td>
+          <td>871 456 0987</td>
+          <td>871 987 5643</td>
+          <td>Orlando, FL</td>
+        </tr>
+        <tr>
+          <td>Arnold Palmer</td>
+          <td>871 678 5489</td>
+          <td>871 624 5908</td>
+          <td>Melbourne, FL</td>
+	  	</tr>
+	 </table>
+  </section><!--end of table div--> 
+	 
+	 
+  <div id="form_info">
+    <h2>Contact Me</h2>
+    <form method="get" action="forms.html">
+      <div>
+        <label form="name">Name</label>
+        <input type="text" name="name_first" id="name_first">
+      </div>
+      
+      <div>
+        <label form="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      
+      <div>
+        <label form="subject">Subject</label>
+        <input type="text" name="subject" id="subject">
+      </div>
+      
+      <div> 
+        <label form="Regarding">Regarding</label>
+      </div>
+      
+      <div>
+        <select name="Regarding" id="Regarding">
+          <option>General Inquiry</option>
+          <option>Complaints</option>
+          <option>Suggestions</option>
+          <option>Site Error</option>
+        </select>
+      </div>
+      
+      <div>
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message"></textarea>
+      </div> 
+      
+      <div>
+        <input type="checkbox" name="contact_phone" id="contact_phone"/>
+        <p> I prefer to be contacted by phone</p>
+      </div>
+                        
+      <div><button type="submit" name="submit" class="button"> Send Message </button></div>
+     </form>
+  </div><!--end contact-form div--> 
 	  		
   <footer>
    <ul>
